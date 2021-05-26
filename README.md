@@ -1,6 +1,6 @@
 <p align="center">
 <img width="300" alt="vatican seal" src="va.png">
-  <h1 align="center">VA Vatican (Holy See)<br>ccTLD Zone File</center>
+  <h1 align="center">Vatican .va (Holy See)<br>ccTLD Zone Data</center>
   <h3 align="center">Last Updated May 25, 2021</h3>
 </p>
 
