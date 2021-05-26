@@ -1,7 +1,7 @@
 <p align="center">
 <img width="300" alt="vatican seal" src="va.png">
   <h1 align="center">Vatican .va (Holy See)<br>ccTLD Zone Data</center>
-  <h3 align="center">Last Updated May 25, 2021</h3>
+  <h3 align="center">Last Updated May 26, 2021</h3>
 </p>
 
 ## Summary
@@ -10,7 +10,7 @@ Vatican City is the smallest, independent nation state in the world. As a nation
 
 ## Statistics 
 
-We identified 181 apex domains with 489 subdomains encompassing 1100 records. We found 293 A records, 13 AAAA records, 216 CNAME records, 314 MX records, and 208 TXT records, plus NS and SOA records. 
+We identified 181 apex domains with 489 subdomains encompassing 1,100 records. We found 293 A records, 13 AAAA records, 216 CNAME records, 314 MX records, and 208 TXT records, plus NS and SOA records. 
 
 ## Formats
 
