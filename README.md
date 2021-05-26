@@ -10,11 +10,11 @@ Vatican City is the smallest, independent nation state in the world. As a nation
 
 ## Statistics 
 
-We identified 180 apex domains with 349 subdomains encompassing 960 records. We found 153 A records, 13 AAAA records, 216 CNAME records, 314 MX records, and 208 TXT records, plus NS and SOA records. 
+We identified 181 apex domains with 489 subdomains encompassing 1100 records. We found 293 A records, 13 AAAA records, 216 CNAME records, 314 MX records, and 208 TXT records, plus NS and SOA records. 
 
 ## Formats
 
-The `va-zone.txt` file contains a running list of each record identified, whereas the `va-zone.csv` file contains a seperated spreadsheet divided by record name, record type, and record value for easy sorting and filtering. 
+The `va-zone.txt` file is tab delimited and contains a running list of each record identified, whereas the `va-zone.csv` file contains seperate columns for record name, record type, and record value for easy sorting and filtering. 
 
 ## Interesting Notes
 
