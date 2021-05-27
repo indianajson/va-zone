@@ -1,16 +1,12 @@
 <p align="center">
 <img width="300" alt="vatican seal" src="va.png">
   <h1 align="center">Vatican .va (Holy See)<br>ccTLD Zone Data</center>
-  <h3 align="center">Last Updated May 26, 2021</h3>
+  <h3 align="center">Last Updated May 26, 2021 | 1,378 Records</h3>
 </p>
 
 ## Summary
 
 Vatican City is the smallest, independent nation state in the world. As a nation it was given the .va ccTLD. This country code top-level domain is restricted for usage by Vatican City (also known as the Holy See) and represents the religion of Catholicism at large. One would suspect that there would be a relatively small network behind such a small nation, but the reality is quite surprising. The Vatican .va (Holy See) ccTLD operates nearly two hundred apex domains and several hundred subdomains, which connect the various aspects of Vatican City's internal operations and publicly facing websites. As it stands there is no offical way to request the zone file from Vatican City. Furthermore, it has been over a decade since the [2007 VA ccTLD zone file](https://web.archive.org/web/20080119124048/http://www.robert.net/ccTLD/VA) was published (originally by Robert Baskerville). This lead us to develop our own zone file as part of a research initiative, which we are making available for interested researchers. 
-
-## Statistics 
-
-We identified 181 apex domains with 489 subdomains encompassing 1,100 records. We found 293 A records, 13 AAAA records, 216 CNAME records, 314 MX records, and 208 TXT records, plus NS and SOA records. 
 
 ## Formats
 
