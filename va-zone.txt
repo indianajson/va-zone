@@ -1,15 +1,7 @@
-va	IN	SOA	john.vatican.va. postmaster.vatican.va. 	
-va	IN	NS	john.vatican.va	
-va	IN	NS	osiris.namex.it	
-va	IN	NS	va.cctld.authdns.ripe.net	
-va	IN	NS	michael.vatican.va	
-va	IN	NS	dns.nic.it	
-va	IN	NS	seth.namex.it	
-va	IN	AAAA	2a01:b8:0:1:212:77:0:2	
-va	IN	AAAA	2a01:b8:0:1:212:77:0:110	
 academyforlife.va	IN	MX	mx11.vatican.va	
 academyforlife.va	IN	MX	mx12.vatican.va	
 academyforlife.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+accreditamenti.salastampa.va	IN	A	185.152.70.143	
 acdf.va	IN	MX	mx11.vatican.va	
 acdf.va	IN	MX	mx12.vatican.va	
 acdf.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
@@ -27,15 +19,22 @@ adv.rv.va	IN	A	185.152.70.45
 aif.va	IN	MX	mx11.vatican.va	
 aif.va	IN	MX	mx12.vatican.va	
 aif.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+alleluia.vatican.va	IN	CNAME	michael.vatican.va.	
 americalatina.va	IN	MX	mx11.vatican.va	
 americalatina.va	IN	MX	mx12.vatican.va	
 americalatina.va	IN	TXT	google-site-verification=OZfMLh3i3SsK2cVmBpTLYk7QzTmgOBD0ETviqzVAnYk	
 americalatina.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
 analytics.catholica.va	IN	A	212.77.4.66	
+andrea.spc.va	IN	A	185.152.69.154	
 annusfidei.va	IN	MX	mx11.vatican.va	
 annusfidei.va	IN	MX	mx12.vatican.va	
 annusfidei.va	IN	TXT	google-site-verification=zLWpc9c86MP5E_LYAfZI7EBe4lmB2g6PyMaVe4hUFQ8	
 annusfidei.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+aod-02.vaticanmedia.va	IN	CNAME	aod.vaticanmedia.va.	
+aod.vaticanmedia.va	IN	A	185.152.70.116	
+aoip-01.vaticanmedia.va	IN	A	185.152.70.71	
+aoip-01.vaticanmedia.va	IN	A	185.152.70.71	
+aoip-02.vaticanmedia.va	IN	CNAME	aoip-01.vaticanmedia.va.	
 apostpnt.va	IN	MX	mx11.vatican.va	
 apostpnt.va	IN	MX	mx12.vatican.va	
 apostpnt.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
@@ -67,10 +66,14 @@ autodiscover.net.va	IN	CNAME	imta.vatican.va
 autodiscover.oessh.va	IN	CNAME	imta.vatican.va	
 autodiscover.ufn.va	IN	CNAME	imta.vatican.va	
 autodiscover.ulsa.va	IN	CNAME	imta.vatican.va	
+autodiscover.vatican-stg.va	IN	CNAME	imta.vatican.va.	
 autodiscover.vatican.va	IN	CNAME	imta.vatican.va	
 autodiscover.vaticanstate.va	IN	CNAME	imta.vatican.va	
 autodiscover.wyd.va	IN	CNAME	imta.vatican.va	
 avepro.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+avsfb.sigri.va	IN	A	212.77.4.159	
+avsfb.sigri.va	IN	A	212.77.4.154	
+bartolomeo.spc.va	IN	A	185.152.69.139	
 basilicasantantonio.va	IN	MX	mx11.vatican.va	
 basilicasantantonio.va	IN	MX	mx12.vatican.va	
 basilicasantantonio.va	IN	TXT	google-site-verification=E3buntcwgsCNkQwfcpbCc8Axt-myxqTCZB1WzpIV5uk	
@@ -78,11 +81,14 @@ basilicasantantonio.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.
 benedettoxvi.va	IN	CNAME	www.vatican.va	
 benedictumxvi.va	IN	CNAME	www.vatican.va	
 beneficenza.vatican.va	IN	A	212.77.4.141	
+biglietteriamusei.vatican-stg.va	IN	A	212.77.4.101	
+biglietteriamusei.vatican-stg.va	IN	A	212.77.4.101	
 biglietteriamusei.vatican.va	IN	A	212.77.4.102	
 bollettino.vatican.va	IN	CNAME	iwd2.vatican.va	
 box-stg.museivaticani.va	IN	CNAME	idispatcher-staging.catholica.va	
 box.museivaticani.va	IN	CNAME	mv-disp.spc.va	
 c-stg.vatican.va	IN	CNAME	wcm-stg.catholica.va	
+c.vatican-stg.va	IN	CNAME	iwc2.vatican-stg.va.	
 c.vatican.va	IN	CNAME	wcm-disp.spc.va	
 capillasixtina.va	IN	CNAME	mv.vatican.va	
 cappellamusicalepontificia.va	IN	MX	mx11.vatican.va	
@@ -154,9 +160,11 @@ cnewa-pmp.va	IN	MX	mx11.vatican.va
 cnewa-pmp.va	IN	MX	mx12.vatican.va	
 cnewa-pmp.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
 cod-inblu-01.spc.va	IN	A	185.152.70.98	
+cod-inblu-02.spc.va	IN	A	185.152.70.99	
 com.va	IN	MX	mx11.vatican.va	
 com.va	IN	MX	mx12.vatican.va	
 com.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+conference.spc.va	IN	A	185.152.70.160	
 congressieucaristici.va	IN	MX	mx11.vatican.va	
 congressieucaristici.va	IN	MX	mx12.vatican.va	
 congressieucaristici.va	IN	TXT	google-site-verification=KIVN8A1pRA3XRJwHbBsLNpBGNXzLK1qJBPq6Q6LPw4o	
@@ -173,8 +181,10 @@ csp.va	IN	MX	mx12.vatican.va
 csp.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
 cspietro.va	IN	MX	mx11.vatican.va	
 cspietro.va	IN	MX	mx12.vatican.va	
+cu-disp-s.spc.va	IN	A	185.152.70.106	
 cu-disp.spc.va	IN	A	185.152.70.30	
 cu-disp.spc.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+cu-disp.spc.va	IN	A	185.152.70.30	
 cultr.va	IN	MX	mx11.vatican.va	
 cultr.va	IN	MX	mx12.vatican.va	
 cultr.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
@@ -185,6 +195,287 @@ cultura.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212
 culturalpatrimony.va	IN	MX	mx11.vatican.va	
 culturalpatrimony.va	IN	MX	mx12.vatican.va	
 culturalpatrimony.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+cust-212-77-12-105.ias.va	IN	A	212.77.12.105	
+cust-212-77-12-107.ias.va	IN	A	212.77.12.107	
+cust-212-77-12-108.ias.va	IN	A	212.77.12.108	
+cust-212-77-12-109.ias.va	IN	A	212.77.12.109	
+cust-212-77-12-11.ias.va	IN	A	212.77.12.11	
+cust-212-77-12-110.ias.va	IN	A	212.77.12.110	
+cust-212-77-12-111.ias.va	IN	A	212.77.12.111	
+cust-212-77-12-114.ias.va	IN	A	212.77.12.114	
+cust-212-77-12-115.ias.va	IN	A	212.77.12.115	
+cust-212-77-12-119.ias.va	IN	A	212.77.12.119	
+cust-212-77-12-120.ias.va	IN	A	212.77.12.120	
+cust-212-77-12-125.ias.va	IN	A	212.77.12.125	
+cust-212-77-12-126.ias.va	IN	A	212.77.12.126	
+cust-212-77-12-13.ias.va	IN	A	212.77.12.13	
+cust-212-77-12-130.ias.va	IN	A	212.77.12.130	
+cust-212-77-12-132.ias.va	IN	A	212.77.12.132	
+cust-212-77-12-133.ias.va	IN	A	212.77.12.133	
+cust-212-77-12-135.ias.va	IN	A	212.77.12.135	
+cust-212-77-12-136.ias.va	IN	A	212.77.12.136	
+cust-212-77-12-137.ias.va	IN	A	212.77.12.137	
+cust-212-77-12-14.ias.va	IN	A	212.77.12.14	
+cust-212-77-12-140.ias.va	IN	A	212.77.12.140	
+cust-212-77-12-142.ias.va	IN	A	212.77.12.142	
+cust-212-77-12-143.ias.va	IN	A	212.77.12.143	
+cust-212-77-12-145.ias.va	IN	A	212.77.12.145	
+cust-212-77-12-147.ias.va	IN	A	212.77.12.147	
+cust-212-77-12-148.ias.va	IN	A	212.77.12.148	
+cust-212-77-12-149.ias.va	IN	A	212.77.12.149	
+cust-212-77-12-15.ias.va	IN	A	212.77.12.15	
+cust-212-77-12-150.ias.va	IN	A	212.77.12.150	
+cust-212-77-12-151.ias.va	IN	A	212.77.12.151	
+cust-212-77-12-152.ias.va	IN	A	212.77.12.152	
+cust-212-77-12-153.ias.va	IN	A	212.77.12.153	
+cust-212-77-12-154.ias.va	IN	A	212.77.12.154	
+cust-212-77-12-155.ias.va	IN	A	212.77.12.155	
+cust-212-77-12-157.ias.va	IN	A	212.77.12.157	
+cust-212-77-12-159.ias.va	IN	A	212.77.12.159	
+cust-212-77-12-16.ias.va	IN	A	212.77.12.16	
+cust-212-77-12-160.ias.va	IN	A	212.77.12.160	
+cust-212-77-12-161.ias.va	IN	A	212.77.12.161	
+cust-212-77-12-162.ias.va	IN	A	212.77.12.162	
+cust-212-77-12-163.ias.va	IN	A	212.77.12.163	
+cust-212-77-12-166.ias.va	IN	A	212.77.12.166	
+cust-212-77-12-167.ias.va	IN	A	212.77.12.167	
+cust-212-77-12-170.ias.va	IN	A	212.77.12.170	
+cust-212-77-12-176.ias.va	IN	A	212.77.12.176	
+cust-212-77-12-179.ias.va	IN	A	212.77.12.179	
+cust-212-77-12-18.ias.va	IN	A	212.77.12.18	
+cust-212-77-12-182.ias.va	IN	A	212.77.12.182	
+cust-212-77-12-183.ias.va	IN	A	212.77.12.183	
+cust-212-77-12-186.ias.va	IN	A	212.77.12.186	
+cust-212-77-12-187.ias.va	IN	A	212.77.12.187	
+cust-212-77-12-189.ias.va	IN	A	212.77.12.189	
+cust-212-77-12-191.ias.va	IN	A	212.77.12.191	
+cust-212-77-12-192.ias.va	IN	A	212.77.12.192	
+cust-212-77-12-193.ias.va	IN	A	212.77.12.193	
+cust-212-77-12-199.ias.va	IN	A	212.77.12.199	
+cust-212-77-12-200.ias.va	IN	A	212.77.12.200	
+cust-212-77-12-202.ias.va	IN	A	212.77.12.202	
+cust-212-77-12-205.ias.va	IN	A	212.77.12.205	
+cust-212-77-12-21.ias.va	IN	A	212.77.12.21	
+cust-212-77-12-210.ias.va	IN	A	212.77.12.210	
+cust-212-77-12-211.ias.va	IN	A	212.77.12.211	
+cust-212-77-12-213.ias.va	IN	A	212.77.12.213	
+cust-212-77-12-214.ias.va	IN	A	212.77.12.214	
+cust-212-77-12-215.ias.va	IN	A	212.77.12.215	
+cust-212-77-12-217.ias.va	IN	A	212.77.12.217	
+cust-212-77-12-218.ias.va	IN	A	212.77.12.218	
+cust-212-77-12-219.ias.va	IN	A	212.77.12.219	
+cust-212-77-12-22.ias.va	IN	A	212.77.12.22	
+cust-212-77-12-220.ias.va	IN	A	212.77.12.220	
+cust-212-77-12-221.ias.va	IN	A	212.77.12.221	
+cust-212-77-12-222.ias.va	IN	A	212.77.12.222	
+cust-212-77-12-225.ias.va	IN	A	212.77.12.225	
+cust-212-77-12-228.ias.va	IN	A	212.77.12.228	
+cust-212-77-12-229.ias.va	IN	A	212.77.12.229	
+cust-212-77-12-23.ias.va	IN	A	212.77.12.23	
+cust-212-77-12-230.ias.va	IN	A	212.77.12.230	
+cust-212-77-12-233.ias.va	IN	A	212.77.12.233	
+cust-212-77-12-234.ias.va	IN	A	212.77.12.234	
+cust-212-77-12-235.ias.va	IN	A	212.77.12.235	
+cust-212-77-12-236.ias.va	IN	A	212.77.12.236	
+cust-212-77-12-24.ias.va	IN	A	212.77.12.24	
+cust-212-77-12-240.ias.va	IN	A	212.77.12.240	
+cust-212-77-12-242.ias.va	IN	A	212.77.12.242	
+cust-212-77-12-244.ias.va	IN	A	212.77.12.244	
+cust-212-77-12-245.ias.va	IN	A	212.77.12.245	
+cust-212-77-12-248.ias.va	IN	A	212.77.12.248	
+cust-212-77-12-249.ias.va	IN	A	212.77.12.249	
+cust-212-77-12-25.ias.va	IN	A	212.77.12.25	
+cust-212-77-12-250.ias.va	IN	A	212.77.12.250	
+cust-212-77-12-251.ias.va	IN	A	212.77.12.251	
+cust-212-77-12-252.ias.va	IN	A	212.77.12.252	
+cust-212-77-12-254.ias.va	IN	A	212.77.12.254	
+cust-212-77-12-26.ias.va	IN	A	212.77.12.26	
+cust-212-77-12-27.ias.va	IN	A	212.77.12.27	
+cust-212-77-12-28.ias.va	IN	A	212.77.12.28	
+cust-212-77-12-31.ias.va	IN	A	212.77.12.31	
+cust-212-77-12-32.ias.va	IN	A	212.77.12.32	
+cust-212-77-12-33.ias.va	IN	A	212.77.12.33	
+cust-212-77-12-34.ias.va	IN	A	212.77.12.34	
+cust-212-77-12-36.ias.va	IN	A	212.77.12.36	
+cust-212-77-12-37.ias.va	IN	A	212.77.12.37	
+cust-212-77-12-39.ias.va	IN	A	212.77.12.39	
+cust-212-77-12-42.ias.va	IN	A	212.77.12.42	
+cust-212-77-12-43.ias.va	IN	A	212.77.12.43	
+cust-212-77-12-44.ias.va	IN	A	212.77.12.44	
+cust-212-77-12-45.ias.va	IN	A	212.77.12.45	
+cust-212-77-12-46.ias.va	IN	A	212.77.12.46	
+cust-212-77-12-47.ias.va	IN	A	212.77.12.47	
+cust-212-77-12-48.ias.va	IN	A	212.77.12.48	
+cust-212-77-12-5.ias.va	IN	A	212.77.12.5	
+cust-212-77-12-50.ias.va	IN	A	212.77.12.50	
+cust-212-77-12-51.ias.va	IN	A	212.77.12.51	
+cust-212-77-12-52.ias.va	IN	A	212.77.12.52	
+cust-212-77-12-54.ias.va	IN	A	212.77.12.54	
+cust-212-77-12-55.ias.va	IN	A	212.77.12.55	
+cust-212-77-12-56.ias.va	IN	A	212.77.12.56	
+cust-212-77-12-57.ias.va	IN	A	212.77.12.57	
+cust-212-77-12-58.ias.va	IN	A	212.77.12.58	
+cust-212-77-12-59.ias.va	IN	A	212.77.12.59	
+cust-212-77-12-61.ias.va	IN	A	212.77.12.61	
+cust-212-77-12-63.ias.va	IN	A	212.77.12.63	
+cust-212-77-12-64.ias.va	IN	A	212.77.12.64	
+cust-212-77-12-66.ias.va	IN	A	212.77.12.66	
+cust-212-77-12-67.ias.va	IN	A	212.77.12.67	
+cust-212-77-12-68.ias.va	IN	A	212.77.12.68	
+cust-212-77-12-69.ias.va	IN	A	212.77.12.69	
+cust-212-77-12-70.ias.va	IN	A	212.77.12.70	
+cust-212-77-12-71.ias.va	IN	A	212.77.12.71	
+cust-212-77-12-72.ias.va	IN	A	212.77.12.72	
+cust-212-77-12-74.ias.va	IN	A	212.77.12.74	
+cust-212-77-12-75.ias.va	IN	A	212.77.12.75	
+cust-212-77-12-78.ias.va	IN	A	212.77.12.78	
+cust-212-77-12-79.ias.va	IN	A	212.77.12.79	
+cust-212-77-12-81.ias.va	IN	A	212.77.12.81	
+cust-212-77-12-82.ias.va	IN	A	212.77.12.82	
+cust-212-77-12-89.ias.va	IN	A	212.77.12.89	
+cust-212-77-12-9.ias.va	IN	A	212.77.12.9	
+cust-212-77-12-90.ias.va	IN	A	212.77.12.90	
+cust-212-77-12-91.ias.va	IN	A	212.77.12.91	
+cust-212-77-12-92.ias.va	IN	A	212.77.12.92	
+cust-212-77-12-93.ias.va	IN	A	212.77.12.93	
+cust-212-77-12-95.ias.va	IN	A	212.77.12.95	
+cust-212-77-12-97.ias.va	IN	A	212.77.12.97	
+cust-212-77-12-98.ias.va	IN	A	212.77.12.98	
+cust-212-77-12-99.ias.va	IN	A	212.77.12.99	
+cust-212-77-3-1.ias.va	IN	A	212.77.3.1	
+cust-212-77-3-102.ias.va	IN	A	212.77.3.102	
+cust-212-77-3-104.ias.va	IN	A	212.77.3.104	
+cust-212-77-3-105.ias.va	IN	A	212.77.3.105	
+cust-212-77-3-106.ias.va	IN	A	212.77.3.106	
+cust-212-77-3-108.ias.va	IN	A	212.77.3.108	
+cust-212-77-3-109.ias.va	IN	A	212.77.3.109	
+cust-212-77-3-110.ias.va	IN	A	212.77.3.110	
+cust-212-77-3-111.ias.va	IN	A	212.77.3.111	
+cust-212-77-3-113.ias.va	IN	A	212.77.3.113	
+cust-212-77-3-116.ias.va	IN	A	212.77.3.116	
+cust-212-77-3-118.ias.va	IN	A	212.77.3.118	
+cust-212-77-3-119.ias.va	IN	A	212.77.3.119	
+cust-212-77-3-12.ias.va	IN	A	212.77.3.12	
+cust-212-77-3-121.ias.va	IN	A	212.77.3.121	
+cust-212-77-3-124.ias.va	IN	A	212.77.3.124	
+cust-212-77-3-125.ias.va	IN	A	212.77.3.125	
+cust-212-77-3-127.ias.va	IN	A	212.77.3.127	
+cust-212-77-3-128.ias.va	IN	A	212.77.3.128	
+cust-212-77-3-129.ias.va	IN	A	212.77.3.129	
+cust-212-77-3-132.ias.va	IN	A	212.77.3.132	
+cust-212-77-3-134.ias.va	IN	A	212.77.3.134	
+cust-212-77-3-135.ias.va	IN	A	212.77.3.135	
+cust-212-77-3-136.ias.va	IN	A	212.77.3.136	
+cust-212-77-3-137.ias.va	IN	A	212.77.3.137	
+cust-212-77-3-138.ias.va	IN	A	212.77.3.138	
+cust-212-77-3-139.ias.va	IN	A	212.77.3.139	
+cust-212-77-3-14.ias.va	IN	A	212.77.3.14	
+cust-212-77-3-140.ias.va	IN	A	212.77.3.140	
+cust-212-77-3-141.ias.va	IN	A	212.77.3.141	
+cust-212-77-3-142.ias.va	IN	A	212.77.3.142	
+cust-212-77-3-147.ias.va	IN	A	212.77.3.147	
+cust-212-77-3-150.ias.va	IN	A	212.77.3.150	
+cust-212-77-3-151.ias.va	IN	A	212.77.3.151	
+cust-212-77-3-152.ias.va	IN	A	212.77.3.152	
+cust-212-77-3-153.ias.va	IN	A	212.77.3.153	
+cust-212-77-3-155.ias.va	IN	A	212.77.3.155	
+cust-212-77-3-157.ias.va	IN	A	212.77.3.157	
+cust-212-77-3-159.ias.va	IN	A	212.77.3.159	
+cust-212-77-3-16.ias.va	IN	A	212.77.3.16	
+cust-212-77-3-160.ias.va	IN	A	212.77.3.160	
+cust-212-77-3-163.ias.va	IN	A	212.77.3.163	
+cust-212-77-3-164.ias.va	IN	A	212.77.3.164	
+cust-212-77-3-166.ias.va	IN	A	212.77.3.166	
+cust-212-77-3-167.ias.va	IN	A	212.77.3.167	
+cust-212-77-3-168.ias.va	IN	A	212.77.3.168	
+cust-212-77-3-172.ias.va	IN	A	212.77.3.172	
+cust-212-77-3-174.ias.va	IN	A	212.77.3.174	
+cust-212-77-3-176.ias.va	IN	A	212.77.3.176	
+cust-212-77-3-177.ias.va	IN	A	212.77.3.177	
+cust-212-77-3-179.ias.va	IN	A	212.77.3.179	
+cust-212-77-3-180.ias.va	IN	A	212.77.3.180	
+cust-212-77-3-181.ias.va	IN	A	212.77.3.181	
+cust-212-77-3-182.ias.va	IN	A	212.77.3.182	
+cust-212-77-3-184.ias.va	IN	A	212.77.3.184	
+cust-212-77-3-185.ias.va	IN	A	212.77.3.185	
+cust-212-77-3-186.ias.va	IN	A	212.77.3.186	
+cust-212-77-3-189.ias.va	IN	A	212.77.3.189	
+cust-212-77-3-19.ias.va	IN	A	212.77.3.19	
+cust-212-77-3-192.ias.va	IN	A	212.77.3.192	
+cust-212-77-3-193.ias.va	IN	A	212.77.3.193	
+cust-212-77-3-194.ias.va	IN	A	212.77.3.194	
+cust-212-77-3-195.ias.va	IN	A	212.77.3.195	
+cust-212-77-3-198.ias.va	IN	A	212.77.3.198	
+cust-212-77-3-199.ias.va	IN	A	212.77.3.199	
+cust-212-77-3-201.ias.va	IN	A	212.77.3.201	
+cust-212-77-3-204.ias.va	IN	A	212.77.3.204	
+cust-212-77-3-206.ias.va	IN	A	212.77.3.206	
+cust-212-77-3-209.ias.va	IN	A	212.77.3.209	
+cust-212-77-3-212.ias.va	IN	A	212.77.3.212	
+cust-212-77-3-213.ias.va	IN	A	212.77.3.213	
+cust-212-77-3-214.ias.va	IN	A	212.77.3.214	
+cust-212-77-3-216.ias.va	IN	A	212.77.3.216	
+cust-212-77-3-217.ias.va	IN	A	212.77.3.217	
+cust-212-77-3-218.ias.va	IN	A	212.77.3.218	
+cust-212-77-3-22.ias.va	IN	A	212.77.3.22	
+cust-212-77-3-223.ias.va	IN	A	212.77.3.223	
+cust-212-77-3-224.ias.va	IN	A	212.77.3.224	
+cust-212-77-3-227.ias.va	IN	A	212.77.3.227	
+cust-212-77-3-230.ias.va	IN	A	212.77.3.230	
+cust-212-77-3-231.ias.va	IN	A	212.77.3.231	
+cust-212-77-3-232.ias.va	IN	A	212.77.3.232	
+cust-212-77-3-233.ias.va	IN	A	212.77.3.233	
+cust-212-77-3-234.ias.va	IN	A	212.77.3.234	
+cust-212-77-3-235.ias.va	IN	A	212.77.3.235	
+cust-212-77-3-239.ias.va	IN	A	212.77.3.239	
+cust-212-77-3-24.ias.va	IN	A	212.77.3.24	
+cust-212-77-3-242.ias.va	IN	A	212.77.3.242	
+cust-212-77-3-243.ias.va	IN	A	212.77.3.243	
+cust-212-77-3-244.ias.va	IN	A	212.77.3.244	
+cust-212-77-3-246.ias.va	IN	A	212.77.3.246	
+cust-212-77-3-247.ias.va	IN	A	212.77.3.247	
+cust-212-77-3-248.ias.va	IN	A	212.77.3.248	
+cust-212-77-3-249.ias.va	IN	A	212.77.3.249	
+cust-212-77-3-250.ias.va	IN	A	212.77.3.250	
+cust-212-77-3-27.ias.va	IN	A	212.77.3.27	
+cust-212-77-3-29.ias.va	IN	A	212.77.3.29	
+cust-212-77-3-32.ias.va	IN	A	212.77.3.32	
+cust-212-77-3-36.ias.va	IN	A	212.77.3.36	
+cust-212-77-3-38.ias.va	IN	A	212.77.3.38	
+cust-212-77-3-39.ias.va	IN	A	212.77.3.39	
+cust-212-77-3-40.ias.va	IN	A	212.77.3.40	
+cust-212-77-3-41.ias.va	IN	A	212.77.3.41	
+cust-212-77-3-44.ias.va	IN	A	212.77.3.44	
+cust-212-77-3-46.ias.va	IN	A	212.77.3.46	
+cust-212-77-3-48.ias.va	IN	A	212.77.3.48	
+cust-212-77-3-5.ias.va	IN	A	212.77.3.5	
+cust-212-77-3-51.ias.va	IN	A	212.77.3.51	
+cust-212-77-3-54.ias.va	IN	A	212.77.3.54	
+cust-212-77-3-56.ias.va	IN	A	212.77.3.56	
+cust-212-77-3-6.ias.va	IN	A	212.77.3.6	
+cust-212-77-3-61.ias.va	IN	A	212.77.3.61	
+cust-212-77-3-62.ias.va	IN	A	212.77.3.62	
+cust-212-77-3-67.ias.va	IN	A	212.77.3.67	
+cust-212-77-3-68.ias.va	IN	A	212.77.3.68	
+cust-212-77-3-7.ias.va	IN	A	212.77.3.7	
+cust-212-77-3-70.ias.va	IN	A	212.77.3.70	
+cust-212-77-3-71.ias.va	IN	A	212.77.3.71	
+cust-212-77-3-75.ias.va	IN	A	212.77.3.75	
+cust-212-77-3-76.ias.va	IN	A	212.77.3.76	
+cust-212-77-3-77.ias.va	IN	A	212.77.3.77	
+cust-212-77-3-79.ias.va	IN	A	212.77.3.79	
+cust-212-77-3-80.ias.va	IN	A	212.77.3.80	
+cust-212-77-3-82.ias.va	IN	A	212.77.3.82	
+cust-212-77-3-83.ias.va	IN	A	212.77.3.83	
+cust-212-77-3-85.ias.va	IN	A	212.77.3.85	
+cust-212-77-3-87.ias.va	IN	A	212.77.3.87	
+cust-212-77-3-89.ias.va	IN	A	212.77.3.89	
+cust-212-77-3-91.ias.va	IN	A	212.77.3.91	
+cust-212-77-3-92.ias.va	IN	A	212.77.3.92	
+cust-212-77-3-96.ias.va	IN	A	212.77.3.96	
+cust-212-77-3-97.ias.va	IN	A	212.77.3.97	
+cust-212-77-3-98.ias.va	IN	A	212.77.3.98	
+dialin.sigri.va	IN	A	212.77.4.155	
 dispensariosantamarta.va	IN	MX	mx11.vatican.va	
 dispensariosantamarta.va	IN	MX	mx12.vatican.va	
 dispensariosantamarta.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
@@ -194,6 +485,8 @@ donatio.catholica.va	IN	CNAME	irvproxy-ngx.catholica.va
 dotto.vatican.va	IN	A	212.77.0.161	
 drive.cloud.va	IN	A	212.77.4.115	
 drive.spc.va	IN	A	185.152.70.108	
+dss.dsscv.va	IN	A	212.77.14.1	
+dsscv.va	IN	TXT	v=spf1 mx ip4:212.77.14.6 ip4:212.77.14.7 ~all	
 e.va	IN	A	185.152.70.15	
 e.va	IN	MX	mxgw-01.spc.va	
 e.va	IN	MX	mxgw-01.spc.va	
@@ -221,6 +514,7 @@ educatio.va	IN	MX	mx11.vatican.va
 educatio.va	IN	MX	mx12.vatican.va	
 educatio.va	IN	TXT	google-site-verification=CPmaBicDCwBHIxWdSw1wHSOAX2U9eytuBlsO_6W5BXA	
 educatio.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+egsp.gsp.va	IN	A	212.77.4.132	
 elemos.va	IN	MX	mx11.vatican.va	
 elemos.va	IN	MX	mx12.vatican.va	
 elemos.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
@@ -230,9 +524,11 @@ elemosineria.va	IN	TXT	globalsign-domain-verification=_lJhBUWYiyTMo2g6BIVNU0Baim
 elemosineria.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
 elemosineria.va	IN	TXT	whmpOPZPfIp6+JTQfTVyPTkLxOeeVpWvHXjxHS0Nj7g=	
 emanuele.catholica.va	IN	A	212.77.2.205	
+emm-mailer-01.spclists.va	IN	A	185.152.70.134	
 emm-mailer-02.spclists.va	IN	A	185.152.70.135	
 emm-mailer-03.spclists.va	IN	A	185.152.70.136	
 emm-mailer-04.spclists.va	IN	A	185.152.70.137	
+ems-dmz.posta.va	IN	A	212.77.4.21	
 enic.va	IN	MX	mx11.vatican.va	
 enic.va	IN	MX	mx12.vatican.va	
 enic.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
@@ -245,12 +541,17 @@ episconf.va	IN	MX	mx11.vatican.va
 episconf.va	IN	MX	mx12.vatican.va	
 episconf.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
 ers.spc.va	IN	A	185.152.70.49	
+esvamx-11.esvanet.va	IN	A	212.77.5.61	
+esvamx-12.esvanet.va	IN	A	212.77.5.62	
 eu.va	IN	MX	mx11.vatican.va	
 eu.va	IN	MX	mx12.vatican.va	
 eu.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
 euchcng.va	IN	MX	mx11.vatican.va	
 euchcng.va	IN	MX	mx12.vatican.va	
 euchcng.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+evang.va	IN	MX	mx12.vatican.va.	
+evang.va	IN	MX	mx11.vatican.va.	
+evang.va	IN	TXT	wMfs62nbcxbjZ3Uxas1aJ18FmxjfK2BVAqWZ++p+CMc=	
 evangel.va	IN	MX	mx11.vatican.va	
 evangel.va	IN	MX	mx12.vatican.va	
 evangel.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
@@ -265,9 +566,16 @@ family.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.
 farmaciavaticana.va	IN	TXT	globalsign-domain-verification=s6W2Envy-p1YEVdXfiAYiISq8fuASyqh6dOm1BB4mJ	
 fas.va	IN	TXT	_globalsign-domain-verification=6kMRPtmMoROW5TGz789UcfLOMEoiwkHes7VUz7Djb8	
 fas.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+fas.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+fas.va	IN	TXT	_globalsign-domain-verification=6kMRPtmMoROW5TGz789UcfLOMEoiwkHes7VUz7Djb8	
+fas.va	IN	MX	mx12.vatican.va.	
+fas.va	IN	MX	mx11.vatican.va.	
 fides.va	IN	MX	mx11.vatican.va	
 fides.va	IN	MX	mx12.vatican.va	
+fileingest.spc.va	IN	A	185.152.70.200	
+filesender.evang.va	IN	A	212.77.4.169	
 filippo.spc.va	IN	A	185.152.70.2	
+filter.spclists.va	IN	A	185.152.70.139	
 fondazioneratzinger.va	IN	MX	mx11.vatican.va	
 fondazioneratzinger.va	IN	MX	mx12.vatican.va	
 fondazioneratzinger.va	IN	TXT	google-site-verification=t_PHp0iemuJ1o8o6y3Ldrj9QC68SQqXgPi-zCcTm76Q	
@@ -283,12 +591,16 @@ foundation.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:
 fsp.va	IN	MX	mx11.vatican.va	
 fsp.va	IN	MX	mx12.vatican.va	
 fsp.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+ftp01.rv.va	IN	A	185.152.70.26	
 gabriel.vatican.va	IN	A	212.77.1.249	
+gabriele.catholica-stg.va	IN	A	212.77.2.189	
 gabriele.catholica.va	IN	A	212.77.2.197	
 genaff-segstat.va	IN	MX	mx11.vatican.va	
 genaff-segstat.va	IN	MX	mx12.vatican.va	
 genaff-segstat.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+giacomo.spc.va	IN	A	185.152.69.138	
 gigapop.vatican.va	IN	A	212.77.0.254	
+giovanni.spc.va	IN	A	185.152.69.3	
 giubileo-2000.va	IN	MX	mx11.vatican.va	
 giubileo-2000.va	IN	MX	mx12.vatican.va	
 giubileo-2000.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
@@ -298,6 +610,9 @@ gov.va	IN	MX	mx11.vatican.va
 gov.va	IN	MX	mx12.vatican.va	
 gov.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
 gsearch.vatican.va	IN	CNAME	wcm-disp.spc.va	
+gsp.va	IN	MX	mx12.vatican.va.	
+gsp.va	IN	MX	mx11.vatican.va.	
+gsp.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
 highereducation.va	IN	MX	mx11.vatican.va	
 highereducation.va	IN	MX	mx12.vatican.va	
 highereducation.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
@@ -310,16 +625,23 @@ hlthwork.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:21
 humandevelopment.va	IN	MX	mx11.vatican.va	
 humandevelopment.va	IN	MX	mx12.vatican.va	
 humandevelopment.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+ias-inter-212-77-12-1.ias.va	IN	A	212.77.12.1	
 idispatcher-staging.catholica.va	IN	A	212.77.4.179	
 idispatcher.catholica.va	IN	A	212.77.4.180	
 idp.catholica.va	IN	CNAME	irvp-97.catholica.va	
+idp.evang.va	IN	A	212.77.4.170	
 im.va	IN	MX	mx11.vatican.va	
 im.va	IN	MX	mx12.vatican.va	
 im.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+imr.telefonivaticani.va	IN	A	212.77.10.20	
 imr.vatican.va	IN	A	212.77.6.69	
 imr.vatican.va	IN	AAAA	2a01:b8:0:1:212:77:6:69	
 imr.vatican.va	IN	MX	raphaelmx1.posta.va	
 imr.vatican.va	IN	MX	raphaelmx2.posta.va	
+ims-tp.telefonivaticani.va	IN	A	212.77.10.14	
+ims.telefonivaticani.va	IN	A	212.77.10.17	
+imta.catholica-stg.va	IN	A	212.77.4.215	
+imta.vatican.va	IN	A	212.77.4.214	
 imta.vatican.va	IN	A	212.77.4.214	
 info.oessh.va	IN	CNAME	iwc2.vatican.va	
 int.va	IN	MX	mx11.vatican.va	
@@ -340,6 +662,7 @@ irvp-110-wyd-staging.catholica.va	IN	A	212.77.4.110
 irvp-111-wyd.catholica.va	IN	A	212.77.4.111	
 irvp-112-wyd-bo.catholica.va	IN	A	212.77.4.112	
 irvp-40-vaticloud-stg.catholica.va	IN	A	212.77.4.40	
+irvp-40-vaticloud-stg.catholica.va	IN	A	212.77.4.40	
 irvp-50-vaticloud.catholica.va	IN	A	212.77.4.50	
 irvp-67.catholica.va	IN	A	212.77.4.67	
 irvp-68-sigri-apsa.catholica.va	IN	A	212.77.4.68	
@@ -350,6 +673,7 @@ irvp-81-oessh.catholica.va	IN	A	212.77.4.81
 irvp-82-tutelaminorum.catholica.va	IN	A	212.77.4.82	
 irvp-83-servizigov.catholica.va	IN	A	212.77.4.83	
 irvp-84-sigrispe.catholica.va	IN	A	212.77.4.84	
+irvp-86-sigri.catholica.va	IN	A	212.77.4.86	
 irvp-86-sigri.catholica.va	IN	A	212.77.4.86	
 irvp-89-mvshop.catholica.va	IN	A	212.77.4.89	
 irvp-96.catholica.va	IN	A	212.77.4.96	
@@ -371,10 +695,23 @@ iwc2-21.catholica.va	IN	A	212.77.1.21
 iwc2-22.catholica.va	IN	A	212.77.1.22	
 iwc2-31.catholica.va	IN	A	212.77.1.31	
 iwc2-32.catholica.va	IN	A	212.77.1.32	
+iwc2.vatican-stg.va	IN	A	212.77.1.121	
+iwc2.vatican-stg.va	IN	A	212.77.1.122	
+iwc2.vatican-stg.va	IN	A	212.77.1.121	
+iwc2.vatican-stg.va	IN	A	212.77.1.122	
+iwc2.vatican-stg.va	IN	A	212.77.1.121	
+iwc2.vatican-stg.va	IN	A	212.77.1.122	
+iwc2.vatican-stg.va	IN	A	212.77.1.121	
+iwc2.vatican-stg.va	IN	A	212.77.1.122	
+iwc2.vatican-stg.va	IN	A	212.77.1.122	
+iwc2.vatican-stg.va	IN	A	212.77.1.121	
+iwc2.vatican-stg.va	IN	A	212.77.1.121	
+iwc2.vatican-stg.va	IN	A	212.77.1.122	
 iwc2.vatican.va	IN	A	212.77.1.21	
 iwc2.vatican.va	IN	A	212.77.1.22	
 iwc2.vatican.va	IN	A	212.77.1.31	
 iwc2.vatican.va	IN	A	212.77.1.32	
+iwd2.vatican-stg.va	IN	A	212.77.1.140	
 iwd2.vatican.va	IN	A	212.77.1.40	
 iwd2.vatican.va	IN	A	212.77.1.50	
 john.vatican.va	IN	A	212.77.0.110	
@@ -419,25 +756,35 @@ libreriaeditricevaticana.va	IN	TXT	v=spf1MX|a:mail.spc.va|a:mx-pps-master.spc.va
 localhost.va	IN	A	127.0.0.1	
 localhost.vatican.va	IN	A	127.0.0.1	
 localhost.vatican.va	IN	AAAA	::1	
+lyncdiscover.sigri.va	IN	A	212.77.4.155	
+lyncweb.sigri.va	IN	A	212.77.4.155	
 m.museivaticani.va	IN	CNAME	mv-disp.spc.va	
+m.vatican-stg.va	IN	CNAME	iwc2.vatican-stg.va.	
 m.vatican.va	IN	CNAME	wcm-disp.spc.va	
 m2.vatican.va	IN	CNAME	wcm-disp.spc.va	
 mail.cloud.va	IN	CNAME	imta.vatican.va	
+mail.evang.va	IN	A	212.77.4.91	
 mail.vatican.va	IN	CNAME	imta.vatican.va	
+mailer-mv.spclists.va	IN	A	185.152.70.133	
 mailing.museivaticani.va	IN	A	212.77.4.135	
 mariabambina.va	IN	MX	mx11.vatican.va	
 mariabambina.va	IN	MX	mx12.vatican.va	
 mariabambina.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+matteo.spc.va	IN	A	185.152.69.155	
 mattia.spc.va	IN	A	185.152.69.147	
+mdm-devel.spc.va	IN	A	212.77.12.100	
 media.vatican.va	IN	A	194.185.176.212	
 media.vaticannews.va	IN	CNAME	media-vn.azureedge.net	
 mediastream.vatican.va	IN	A	212.77.7.148	
+meet.sigri.va	IN	A	212.77.4.155	
 mhsfao.va	IN	MX	mx11.vatican.va	
 mhsfao.va	IN	MX	mx12.vatican.va	
 mhsfao.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
 mhstour.va	IN	MX	mx11.vatican.va	
 mhstour.va	IN	MX	mx12.vatican.va	
 mhstour.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+michael.vatican.va	IN	A	212.77.0.2	
+michael.vatican.va	IN	AAAA	2a01:b8:0:1:212:77:0:2	
 michael.vatican.va	IN	A	212.77.0.2	
 michael.vatican.va	IN	AAAA	2a01:b8:0:1:212:77:0:2	
 michele.catholica.va	IN	A	212.77.2.149	
@@ -449,9 +796,12 @@ mlists.vatican.va	IN	A	212.77.5.115
 mlists.vatican.va	IN	MX	mlists.vatican.va	
 mlists.vatican.va	IN	TXT	v=spf1 +A|+MX|ip4:212.77.5.115 -all	
 mobile.museivaticani.va	IN	CNAME	idispatcher.catholica.va	
+mobile.vatican-stg.va	IN	CNAME	iwc2.vatican-stg.va.	
 mobile.vatican.va	IN	CNAME	wcm-disp.spc.va	
+mrelay-dmz.posta.va	IN	A	212.77.4.22	
 mtagw-02.vatican.va	IN	A	212.77.4.24	
 mtagw-03.vatican.va	IN	A	212.77.4.25	
+mtagw-04.vatican.va	IN	A	212.77.4.26	
 mtagw.vatican.va	IN	A	212.77.4.23	
 multigigapop-re.vatican.va	IN	A	212.77.0.1	
 multigigapop-re.vatican.va	IN	AAAA	2a01:b8::1	
@@ -476,12 +826,18 @@ mv-disp.spc.va	IN	A	185.152.70.31
 mv.vatican.va	IN	CNAME	irvproxy.catholica.va	
 mvappguide.museivaticani.va	IN	A	212.77.4.75	
 mvs.museivaticani.va	IN	A	212.77.4.45	
+mx-11.spclists.va	IN	A	185.152.70.114	
 mx-mm.spclists.va	IN	A	185.152.70.140	
+mx.dsscv.va	IN	A	212.77.5.41	
+mx1.dsscv.va	IN	A	212.77.14.6	
 mx11.vatican.va	IN	A	212.77.5.111	
 mx12.vatican.va	IN	A	212.77.5.112	
+mx2.dsscv.va	IN	A	212.77.14.7	
 mx20.vatican.va	IN	A	212.77.5.120	
 mx21.vatican.va	IN	A	212.77.5.121	
+mxgw-01.spc.va	IN	A	185.152.70.151	
 mxgw-master.spc.va	IN	A	185.152.70.150	
+mxmaster.vatican.va	IN	A	212.77.5.113	
 nessus.catholica.va	IN	A	212.77.7.179	
 net.va	IN	MX	mx20.vatican.va	
 net.va	IN	MX	mx21.vatican.va	
@@ -503,14 +859,18 @@ novaevangelizatio.va	IN	MX	mx11.vatican.va
 novaevangelizatio.va	IN	MX	mx12.vatican.va	
 novaevangelizatio.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
 ns-ext-02.spc.va	IN	A	185.152.70.126	
+ns-ext-master.spc.va	IN	A	185.152.70.124	
 nuntius.va	IN	MX	mx11.vatican.va	
 nuntius.va	IN	MX	mx12.vatican.va	
 nuntius.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
 nunzio.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+o01.vnews.va	IN	A	185.152.70.36	
+o02.vnews.va	IN	A	185.152.70.37	
 oessh.va	IN	MX	mx11.vatican.va	
 oessh.va	IN	MX	mx12.vatican.va	
 oessh.va	IN	TXT	globalsign-domain-verification=TXVgeSHPC30_uvLbka2HjjweRm12hp0EzTR_oeKxW4	
 oessh.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+onlyoffice.cloud.va	IN	A	212.77.4.131	
 org.va	IN	MX	mx11.vatican.va	
 org.va	IN	MX	mx12.vatican.va	
 org.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
@@ -528,6 +888,7 @@ ossrom.va	IN	NS	spc03.glauco.it
 ossrom.va	IN	SOA	ns-ext-01.spc.va. hostmaster.spc.va. 202001140 900 1814400 10800	
 ossrom.va	IN	TXT	v=spf1 aMX|ip4:212.77.4.211 ?all	
 owa.cloud.va	IN	CNAME	imta.vatican.va	
+owncloud.ior.va	IN	A	212.77.12.7	
 pa-cp.catholica.va	IN	CNAME	irvproxy.catholica.va	
 paess.va	IN	MX	mx11.vatican.va	
 paess.va	IN	MX	mx12.vatican.va	
@@ -565,7 +926,9 @@ photo.va	IN	NS	ns-ext-01.spc.va
 photo.va	IN	NS	ns-ext-02.spc.va	
 photo.va	IN	NS	spc03.glauco.it	
 photo.va	IN	SOA	ns-ext-01.spc.va. hostmaster.spc.va. 202103170 900 1814400 10800	
+photo.vaticanmedia.va	IN	A	185.152.70.69	
 photogallery.va	IN	TXT	google-site-verification=9nPnrfPZ3nkgrNmjIJSZDLN5xah67TWbBfONHVPO3Ng	
+pietro.spc.va	IN	A	185.152.69.2	
 pmva1.vatican.va	IN	A	212.77.6.81	
 pmva1.vatican.va	IN	AAAA	2a01:b8:0:1:212:77:6:81	
 pmva1.vatican.va	IN	MX	pmva1.vatican.va	
@@ -584,6 +947,7 @@ popesprayer.va	IN	MX	mx12.vatican.va
 popesprayer.va	IN	TXT	_globalsign-domain-verification=zUSP4MvzN8_1_Tk1Ocpb_7hjXdPeH4GWZ1efUuU8bq	
 popesprayer.va	IN	TXT	google-site-verification=r4s5lRwFRWPx03jPRb9J2D4LDFGYaecPo6y5czExK5o	
 popesprayer.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+portal.ior.va	IN	A	212.77.12.8	
 pospa.va	IN	MX	mx11.vatican.va	
 pospa.va	IN	MX	mx12.vatican.va	
 pospa.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
@@ -593,6 +957,7 @@ ppoomm.va	IN	MX	mx11.vatican.va
 ppoomm.va	IN	MX	mx12.vatican.va	
 ppoomm.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
 ppoomm.va	IN	TXT	wMfs62nbcxbjZ3Uxas1aJ18FmxjfK2BVAqWZ++p+CMc=	
+press-disp.spc.va	IN	A	185.152.70.35	
 press.catholica.va	IN	CNAME	wcm.catholica.va	
 press.vatican.va	IN	CNAME	press-vatican.azureedge.net	
 pressoffice.va	IN	MX	mx11.vatican.va	
@@ -633,10 +998,14 @@ relstat-segstat.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25
 rotaromana.va	IN	MX	mx11.vatican.va	
 rotaromana.va	IN	MX	mx12.vatican.va	
 rotaromana.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+rs.dsscv.va	IN	A	212.77.14.8	
+rss.vatican-stg.va	IN	CNAME	iwc2.vatican-stg.va.	
 rss.vatican.va	IN	CNAME	wcm-disp.spc.va	
 rv.va	IN	NS	ns-ext-01.spc.va	
 rv.va	IN	NS	ns-ext-02.spc.va	
 rv.va	IN	NS	spc03.glauco.it	
+rvl.vaticanmedia.va	IN	A	185.152.70.74	
+rvproxy-inter.spc.va	IN	A	185.152.70.79	
 salastampa.va	IN	MX	mxgw-01.spc.va	
 salastampa.va	IN	MX	mxgw-02.spc.va	
 salastampa.va	IN	NS	ns-ext-01.spc.va	
@@ -672,14 +1041,27 @@ segstat.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212
 sentry-devel.spc.va	IN	A	212.77.12.104	
 service-stg.wyd.va	IN	CNAME	irvp-110-wyd-staging.catholica.va	
 service.wyd.va	IN	CNAME	irvp-112-wyd-bo.catholica.va	
+servizi.fas.va	IN	TXT	_globalsign-domain-verification=h2FBDt_yI2IAODB9VVtSE-X6bB3TCg-lld0J5ZvIw0	
+servizi.fas.va	IN	A	212.77.4.106	
 servizi.gov.va	IN	A	212.77.4.83	
 servizi.gov.va	IN	TXT	globalsign-domain-verification=GdjLeoHoeiZZql67aVS9QE2pnR75mf2O95smcPnELA	
+sfboos.sigri.va	IN	A	212.77.4.156	
+sfbpool.sigri.va	IN	A	212.77.4.155	
+shar.e.va	IN	A	185.152.70.199	
 shop-stg.museivaticani.va	IN	CNAME	irvproxy-ngx.catholica-stg.va	
 shop-test.museivaticani.va	IN	CNAME	vportal.catholica.va	
 shop.museivaticani.va	IN	CNAME	irvp-89-mvshop.catholica.va	
+shop.villepontificie.va	IN	TXT	globalsign-domain-verification=6cVEsRrLu0yWlXV2-LzBuLLF9t03tjm9sXdfOZ2gJg	
+shop.villepontificie.va	IN	A	212.77.4.72	
 sigri.apsa.va	IN	CNAME	irvp-68-sigri-apsa.catholica.va	
+sigri.va	IN	TXT	_globalsign-domain-verification=jee0FRItCKXCdjrxrul3cG5pBM6tM0omqJHZJ0HMCD	
+sigri.va	IN	TXT	google-site-verification=0ooSx6Qg_IEIjh0FGfSJKaeuLn95rBiFkijkDUtEpP4	
+simone.spc.va	IN	A	185.152.69.146	
+sip.sigri.va	IN	A	212.77.4.152	
+sip.sigri.va	IN	A	212.77.4.157	
 sistinechapel.va	IN	CNAME	mv.vatican.va	
 sixtinischekapelle.va	IN	CNAME	mv.vatican.va	
+smtp-out.caritas.va	IN	A	212.77.12.118	
 smtp.vatican.va	IN	CNAME	michael.vatican.va	
 spclists.va	IN	MX	mx-11.spclists.va	
 spclists.va	IN	NS	ns-ext-01.spc.va	
@@ -691,6 +1073,7 @@ spclists.va	IN	TXT	v=spf1MX|a:mx-11.spclists.va|-all
 specola.va	IN	MX	mx11.vatican.va	
 specola.va	IN	MX	mx12.vatican.va	
 specola.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+spv-upu.postevaticane.va	IN	A	212.77.5.13	
 src.catholica.va	IN	A	212.77.1.211	
 srom.vatican.va	IN	A	212.77.1.26	
 stat.vatican.va	IN	CNAME	vportal.catholica.va	
@@ -700,6 +1083,7 @@ statistica.va	IN	MX	mx11.vatican.va
 statistica.va	IN	MX	mx12.vatican.va	
 statistica.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
 stream1.vatican.va	IN	A	212.77.7.134	
+stun.vatican.va	IN	A	212.77.4.200	
 support.catholica.va	IN	CNAME	irvproxy-ngx.catholica.va	
 supportoposta.vatican.va	IN	A	212.77.4.42	
 swisscdo.va	IN	MX	mx11.vatican.va	
@@ -714,10 +1098,14 @@ t.va	IN	CNAME	irvproxy.catholica.va
 telef.va	IN	MX	mx11.vatican.va	
 telef.va	IN	MX	mx12.vatican.va	
 telef.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+term.pos.va	IN	A	212.77.3.9	
 test-ior.spc.va	IN	A	185.152.70.62	
+test.aif-goaml.va	IN	A	212.77.12.198	
 teutonico.va	IN	MX	mx11.vatican.va	
 teutonico.va	IN	MX	mx12.vatican.va	
 teutonico.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+thepopevideo.va	IN	TXT	_globalsign-domain-verification=yYYCBozJvlhkrih7mknAgH4T_0BKJWrT4BurNlFJoH	
+thepopevideo.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
 tickets-stg.museivaticani.va	IN	A	212.77.4.107	
 tickets.museivaticani.va	IN	A	212.77.4.108	
 tommaso.spc.va	IN	A	185.152.69.1	
@@ -740,6 +1128,15 @@ ulsa.va	IN	MX	mx11.vatican.va
 ulsa.va	IN	MX	mx12.vatican.va	
 ulsa.va	IN	TXT	google-site-verification=z-TD7Anm2idTRPf4UFJxibIluKLRoZ-IlzpXAyVNobo	
 ulsa.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+va	IN	SOA	john.vatican.va. postmaster.vatican.va. 	
+va	IN	NS	john.vatican.va	
+va	IN	NS	osiris.namex.it	
+va	IN	NS	va.cctld.authdns.ripe.net	
+va	IN	NS	michael.vatican.va	
+va	IN	NS	dns.nic.it	
+va	IN	NS	seth.namex.it	
+va	IN	AAAA	2a01:b8:0:1:212:77:0:2	
+va	IN	AAAA	2a01:b8:0:1:212:77:0:110	
 vatican.va	IN	MX	mx11.vatican.va	
 vatican.va	IN	MX	mx12.vatican.va	
 vatican.va	IN	NS	john.vatican.va	
@@ -766,6 +1163,7 @@ vaticanobservatory.va	IN	MX	mx11.vatican.va
 vaticanobservatory.va	IN	MX	mx12.vatican.va	
 vaticanobservatory.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
 vaticanstate.va	IN	A	212.77.4.171	
+vaticloud.vatican-stg.va	IN	CNAME	irvp-40-vaticloud-stg.catholica.va.	
 vaticloud.vatican.va	IN	CNAME	irvp-50-vaticloud.catholica.va	
 vatlib.va	IN	MX	mx11.vatican.va	
 vatlib.va	IN	MX	mx12.vatican.va	
@@ -778,13 +1176,16 @@ vicariate.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:2
 vicariato.va	IN	MX	mx11.vatican.va	
 vicariato.va	IN	MX	mx12.vatican.va	
 vicariato.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+videoconf.telefonivaticani.va	IN	A	212.77.10.12	
 vod1.vatican.va	IN	A	212.77.7.132	
 vod4.vatican.va	IN	A	212.77.7.136	
 vpn-01.catholica.va	IN	A	212.77.5.27	
 vpn-02.catholica.va	IN	A	212.77.5.50	
 vpn-03.catholica.va	IN	A	212.77.5.51	
 vpn-04.catholica.va	IN	A	212.77.5.52	
+vpnossromtipografia.vpn.va	IN	A	212.77.5.107	
 vportal.catholica.va	IN	CNAME	irvp-77.catholica.va	
+vseat.spc.va	IN	A	185.152.70.190	
 w2.vatican.va	IN	CNAME	wcm-disp.spc.va	
 wcm-author.catholica.va	IN	CNAME	vportal.catholica.va	
 wcm-disp.spc.va	IN	A	185.152.70.33	
@@ -793,7 +1194,10 @@ wcm-ulsa.catholica.va	IN	A	212.77.4.71
 wcm.catholica.va	IN	A	212.77.4.79	
 wcmdevel-author.catholica.va	IN	CNAME	vportal.catholica.va	
 wcmstaging-author.catholica.va	IN	CNAME	vportal.catholica.va	
+webconf.sigri.va	IN	A	212.77.4.153	
+webconf.sigri.va	IN	A	212.77.4.158	
 webmail.caritas.va	IN	A	212.77.12.116	
+webmail.dsscv.va	IN	A	212.77.14.5	
 whois.catholica.va	IN	CNAME	irvproxy.catholica.va	
 widgets.vatican.va	IN	CNAME	wcm-disp.spc.va	
 wms.catholica.va	IN	CNAME	idispatcher.catholica.va	
@@ -805,8 +1209,11 @@ www.academyforlife.va	IN	CNAME	cu-disp.spc.va
 www.academyofsciences.va	IN	CNAME	cu-disp.spc.va	
 www.accademiascienze.va	IN	CNAME	cu-disp.spc.va	
 www.acdf.va	IN	CNAME	cu-disp.spc.va	
+www.aif-goaml.va	IN	A	212.77.12.197	
 www.aif.va	IN	A	212.77.12.196	
 www.americalatina.va	IN	CNAME	cu-disp.spc.va	
+www.annuarium.va	IN	TXT	_globalsign-domain-verification=_ZvwXdEF7KzeU2AVrID51oljxc4pwkNnM-8qvj27ye	
+www.annuarium.va	IN	A	212.77.4.69	
 www.annusfidei.va	IN	CNAME	cu-disp.spc.va	
 www.apnic.va	IN	CNAME	cu-disp.spc.va	
 www.archivioapostolicovaticano.va	IN	CNAME	cu-disp.spc.va	
@@ -816,6 +1223,8 @@ www.archiviostoricopropaganda.va	IN	CNAME	cu-disp.spc.va
 www.astronomy2009.va	IN	CNAME	vportal.catholica.va	
 www.asv.va	IN	CNAME	idispatcher.catholica.va	
 www.avepro.va	IN	CNAME	irvproxy-ngx.catholica.va	
+www.bandipubblici.va	IN	A	185.152.70.40	
+www.bandipubblicigovernatorato.va	IN	A	212.77.4.29	
 www.camposanto.va	IN	CNAME	cu-disp.spc.va	
 www.camposantoteutonico.va	IN	CNAME	cu-disp.spc.va	
 www.capillasixtina.va	IN	CNAME	mv.vatican.va	
@@ -846,6 +1255,7 @@ www.cultura.va	IN	CNAME	cu-disp.spc.va
 www.delegumtextibus.va	IN	CNAME	cu-disp.spc.va	
 www.deutscherfriedhof.va	IN	CNAME	cu-disp.spc.va	
 www.dispensariosantamarta.va	IN	CNAME	cu-disp.spc.va	
+www.dsi.va	IN	A	212.77.4.27	
 www.ecosic.va	IN	CNAME	cu-disp.spc.va	
 www.educatio.va	IN	CNAME	cu-disp.spc.va	
 www.education.va	IN	CNAME	cu-disp.spc.va	
@@ -860,6 +1270,7 @@ www.famille.va	IN	CNAME	irvproxy-ngx.catholica.va
 www.family.va	IN	CNAME	irvproxy-ngx.catholica.va	
 www.farmaciavaticana.va	IN	A	212.77.4.47	
 www.fas.va	IN	CNAME	cu-disp.spc.va	
+www.fas.va	IN	CNAME	cu-disp.spc.va.	
 www.fondazioneratzinger.va	IN	CNAME	cu-disp.spc.va	
 www.fondazionevaticanagpi.va	IN	CNAME	cms-disp.spc.va	
 www.fratellitutti.va	IN	CNAME	cms-disp.spc.va	
@@ -892,6 +1303,7 @@ www.laity.va	IN	CNAME	cu-disp.spc.va
 www.laityfamilylife.va	IN	CNAME	cu-disp.spc.va	
 www.latinitas.va	IN	CNAME	cu-disp.spc.va	
 www.laudatosi.va	IN	CNAME	cu-disp.spc.va	
+www.libreriaeditricevaticana.va	IN	A	185.152.70.44	
 www.museivaticani.va	IN	CNAME	mv-disp.spc.va	
 www.museopropagandafide.va	IN	CNAME	irvproxy-ngx.catholica.va	
 www.musicasacra.va	IN	CNAME	cu-disp.spc.va	
@@ -918,14 +1330,17 @@ www.ppoomm.va	IN	A	185.152.70.17
 www.prefectureeconomicaffairs.va	IN	CNAME	cu-disp.spc.va	
 www.priesterkolleg.va	IN	CNAME	cu-disp.spc.va	
 www.protectionofminors.va	IN	CNAME	cu-disp.spc.va	
+www.protocollosds.va	IN	A	212.77.14.9	
 www.rotaromana.va	IN	CNAME	cu-disp.spc.va	
 www.santanna.va	IN	CNAME	irvproxy-ngx.catholica.va	
 www.santosepolcro.va	IN	CNAME	cu-disp.spc.va	
 www.santuarioloreto.va	IN	CNAME	cms-disp-s.spc.va	
 www.scavi.va	IN	CNAME	cu-disp.spc.va	
 www.scuolavaticanapaleografia.va	IN	CNAME	cu-disp.spc.va	
+www.sdsofficium.va	IN	TXT	_globalsign-domain-verification=vBqqAa0UXGjdD5MPd7TC98j2VjRQuXmyNWtKM0y2zG	
 www.shades-acdf.va	IN	A	212.77.4.43	
 www.shades-acdf.va	IN	TXT	_globalsign-domain-verification=_zgpi-vdvG25avjpaE62f57kYyZyC2oL0u2hy570ts	
+www.sigri.va	IN	CNAME	irvp-86-sigri.catholica.va.	
 www.sinodoamazonico.va	IN	CNAME	cu-disp.spc.va	
 www.sistinechapel.va	IN	CNAME	mv.vatican.va	
 www.sixtinischekapelle.va	IN	CNAME	mv.vatican.va	
@@ -933,12 +1348,14 @@ www.synod.va	IN	CNAME	cu-disp.spc.va
 www.synod2018.va	IN	CNAME	cu-disp.spc.va	
 www.test23111973.va	IN	CNAME	seraphin.vatican.va	
 www.theologia.va	IN	CNAME	cu-disp.spc.va	
+www.thepopevideo.va	IN	A	212.77.4.61	
 www.tutelademenores.va	IN	CNAME	cu-disp.spc.va	
 www.tutelaminorum.va	IN	CNAME	cu-disp.spc.va	
 www.ufn.va	IN	A	212.77.4.51	
 www.ufn.va	IN	TXT	_globalsign-domain-verification=rsGpvqj7P_aiPA7_JH3n-jIJM38Mk7sVJf45yrokeg	
 www.ulsa.va	IN	CNAME	cu-disp.spc.va	
 www.va	IN	CNAME	www.vatican.va	
+www.vatican-stg.va	IN	CNAME	iwc2.vatican-stg.va.	
 www.vatican.va	IN	CNAME	wcm-disp.spc.va	
 www.vaticanlibrary.va	IN	A	212.77.5.67	
 www.vaticanlibrary.va	IN	TXT	_globalsign-domain-verification=jFx08sFIsoQE69yB3FtiMPqw6mussyEiuVjRRQQKel	
@@ -946,6 +1363,7 @@ www.vaticannews.va	IN	CNAME	www-vn.azureedge.net
 www.vaticanobservatory.va	IN	CNAME	cu-disp.spc.va	
 www.vaticanstate.va	IN	A	212.77.4.171	
 www.vaticanstate.va	IN	TXT	_globalsign-domain-verification=1En8hu/v9GQhtHebn8M+oWj9hx3/Wf19jhEm/R6hgho=	
+www.villepontificie.va	IN	TXT	globalsign-domain-verification=6cVEsRrLu0yWlXV2-LzBuLLF9t03tjm9sXdfOZ2gJg	
 www.wyd.va	IN	CNAME	idispatcher.catholica.va	
 www.xn--academiadascincias-6wb.va	IN	CNAME	cu-disp.spc.va	
 www.xn--ppstlicheakademiederwissenschaften-b4c.va	IN	CNAME	cu-disp.spc.va	
@@ -958,143 +1376,3 @@ wyd.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.
 zoom-stg-mmr-01.spc.va	IN	A	185.152.70.192	
 zoom-stg.spc.va	IN	A	185.152.70.191	
 zoom.museivaticani.va	IN	CNAME	irvproxy.catholica.va	
-andrea.spc.va	IN	A	185.152.69.154	
-conference.spc.va	IN	A	185.152.70.160	
-simone.spc.va	IN	A	185.152.69.146	
-giovanni.spc.va	IN	A	185.152.69.3	
-mdm-devel.spc.va	IN	A	212.77.12.100	
-bartolomeo.spc.va	IN	A	185.152.69.139	
-matteo.spc.va	IN	A	185.152.69.155	
-giacomo.spc.va	IN	A	185.152.69.138	
-pietro.spc.va	IN	A	185.152.69.2	
-press-disp.spc.va	IN	A	185.152.70.35	
-rvproxy-inter.spc.va	IN	A	185.152.70.79	
-ns-ext-master.spc.va	IN	A	185.152.70.124	
-vseat.spc.va	IN	A	185.152.70.190	
-fileingest.spc.va	IN	A	185.152.70.200	
-cust-212-77-3-127.ias.va	IN	A	212.77.3.127	
-cust-212-77-3-80.ias.va	IN	A	212.77.3.80	
-cust-212-77-12-133.ias.va	IN	A	212.77.12.133	
-cust-212-77-12-97.ias.va	IN	A	212.77.12.97	
-cust-212-77-12-248.ias.va	IN	A	212.77.12.248	
-cust-212-77-12-72.ias.va	IN	A	212.77.12.72	
-cust-212-77-12-213.ias.va	IN	A	212.77.12.213	
-cust-212-77-3-56.ias.va	IN	A	212.77.3.56	
-cust-212-77-3-199.ias.va	IN	A	212.77.3.199	
-cust-212-77-3-119.ias.va	IN	A	212.77.3.119	
-cust-212-77-12-26.ias.va	IN	A	212.77.12.26	
-cust-212-77-12-54.ias.va	IN	A	212.77.12.54	
-cust-212-77-3-136.ias.va	IN	A	212.77.3.136	
-cust-212-77-12-63.ias.va	IN	A	212.77.12.63	
-cust-212-77-3-167.ias.va	IN	A	212.77.3.167	
-cust-212-77-3-135.ias.va	IN	A	212.77.3.135	
-cust-212-77-3-186.ias.va	IN	A	212.77.3.186	
-cust-212-77-3-92.ias.va	IN	A	212.77.3.92	
-cust-212-77-3-41.ias.va	IN	A	212.77.3.41	
-cust-212-77-3-116.ias.va	IN	A	212.77.3.116	
-cust-212-77-3-108.ias.va	IN	A	212.77.3.108	
-cust-212-77-3-233.ias.va	IN	A	212.77.3.233	
-cust-212-77-3-51.ias.va	IN	A	212.77.3.51	
-cust-212-77-3-174.ias.va	IN	A	212.77.3.174	
-cust-212-77-12-235.ias.va	IN	A	212.77.12.235	
-cust-212-77-12-125.ias.va	IN	A	212.77.12.125	
-cust-212-77-12-183.ias.va	IN	A	212.77.12.183	
-cust-212-77-3-249.ias.va	IN	A	212.77.3.249	
-cust-212-77-12-98.ias.va	IN	A	212.77.12.98	
-cust-212-77-3-89.ias.va	IN	A	212.77.3.89	
-cust-212-77-3-142.ias.va	IN	A	212.77.3.142	
-cust-212-77-12-93.ias.va	IN	A	212.77.12.93	
-cust-212-77-12-5.ias.va	IN	A	212.77.12.5	
-cust-212-77-3-147.ias.va	IN	A	212.77.3.147	
-cust-212-77-3-140.ias.va	IN	A	212.77.3.140	
-cust-212-77-3-231.ias.va	IN	A	212.77.3.231	
-cust-212-77-12-111.ias.va	IN	A	212.77.12.111	
-cust-212-77-3-176.ias.va	IN	A	212.77.3.176	
-cust-212-77-3-48.ias.va	IN	A	212.77.3.48	
-cust-212-77-3-181.ias.va	IN	A	212.77.3.181	
-cust-212-77-3-129.ias.va	IN	A	212.77.3.129	
-cust-212-77-3-118.ias.va	IN	A	212.77.3.118	
-cust-212-77-12-107.ias.va	IN	A	212.77.12.107	
-cust-212-77-12-16.ias.va	IN	A	212.77.12.16	
-cust-212-77-12-55.ias.va	IN	A	212.77.12.55	
-cust-212-77-3-12.ias.va	IN	A	212.77.3.12	
-cust-212-77-3-239.ias.va	IN	A	212.77.3.239	
-cust-212-77-12-64.ias.va	IN	A	212.77.12.64	
-cust-212-77-12-219.ias.va	IN	A	212.77.12.219	
-cust-212-77-3-182.ias.va	IN	A	212.77.3.182	
-cust-212-77-12-240.ias.va	IN	A	212.77.12.240	
-cust-212-77-3-168.ias.va	IN	A	212.77.3.168	
-cust-212-77-12-148.ias.va	IN	A	212.77.12.148	
-cust-212-77-3-217.ias.va	IN	A	212.77.3.217	
-cust-212-77-3-121.ias.va	IN	A	212.77.3.121	
-cust-212-77-12-163.ias.va	IN	A	212.77.12.163	
-cust-212-77-12-153.ias.va	IN	A	212.77.12.153	
-cust-212-77-12-18.ias.va	IN	A	212.77.12.18	
-cust-212-77-12-75.ias.va	IN	A	212.77.12.75	
-cust-212-77-12-11.ias.va	IN	A	212.77.12.11	
-cust-212-77-3-104.ias.va	IN	A	212.77.3.104	
-cust-212-77-3-124.ias.va	IN	A	212.77.3.124	
-cust-212-77-3-67.ias.va	IN	A	212.77.3.67	
-cust-212-77-12-166.ias.va	IN	A	212.77.12.166	
-cust-212-77-3-206.ias.va	IN	A	212.77.3.206	
-cust-212-77-12-47.ias.va	IN	A	212.77.12.47	
-cust-212-77-12-59.ias.va	IN	A	212.77.12.59	
-cust-212-77-12-21.ias.va	IN	A	212.77.12.21	
-cust-212-77-12-135.ias.va	IN	A	212.77.12.135	
-cust-212-77-3-29.ias.va	IN	A	212.77.3.29	
-cust-212-77-3-163.ias.va	IN	A	212.77.3.163	
-cust-212-77-12-214.ias.va	IN	A	212.77.12.214	
-cust-212-77-3-204.ias.va	IN	A	212.77.3.204	
-cust-212-77-12-228.ias.va	IN	A	212.77.12.228	
-cust-212-77-12-57.ias.va	IN	A	212.77.12.57	
-cust-212-77-12-82.ias.va	IN	A	212.77.12.82	
-cust-212-77-12-151.ias.va	IN	A	212.77.12.151	
-cust-212-77-3-105.ias.va	IN	A	212.77.3.105	
-cust-212-77-12-79.ias.va	IN	A	212.77.12.79	
-cust-212-77-12-182.ias.va	IN	A	212.77.12.182	
-cust-212-77-3-180.ias.va	IN	A	212.77.3.180	
-cust-212-77-12-114.ias.va	IN	A	212.77.12.114	
-cust-212-77-3-36.ias.va	IN	A	212.77.3.36	
-cust-212-77-3-14.ias.va	IN	A	212.77.3.14	
-cust-212-77-12-24.ias.va	IN	A	212.77.12.24	
-cust-212-77-12-46.ias.va	IN	A	212.77.12.46	
-cust-212-77-12-42.ias.va	IN	A	212.77.12.42	
-cust-212-77-3-75.ias.va	IN	A	212.77.3.75	
-cust-212-77-3-1.ias.va	IN	A	212.77.3.1	
-cust-212-77-12-58.ias.va	IN	A	212.77.12.58	
-cust-212-77-12-39.ias.va	IN	A	212.77.12.39	
-cust-212-77-3-234.ias.va	IN	A	212.77.3.234	
-cust-212-77-3-153.ias.va	IN	A	212.77.3.153	
-cust-212-77-3-195.ias.va	IN	A	212.77.3.195	
-cust-212-77-12-115.ias.va	IN	A	212.77.12.115	
-cust-212-77-3-79.ias.va	IN	A	212.77.3.79	
-cust-212-77-12-191.ias.va	IN	A	212.77.12.191	
-cust-212-77-3-76.ias.va	IN	A	212.77.3.76	
-cust-212-77-12-132.ias.va	IN	A	212.77.12.132	
-cust-212-77-3-230.ias.va	IN	A	212.77.3.230	
-cust-212-77-12-215.ias.va	IN	A	212.77.12.215	
-cust-212-77-12-176.ias.va	IN	A	212.77.12.176	
-cust-212-77-3-192.ias.va	IN	A	212.77.3.192	
-cust-212-77-3-248.ias.va	IN	A	212.77.3.248	
-cust-212-77-12-9.ias.va	IN	A	212.77.12.9	
-cust-212-77-3-189.ias.va	IN	A	212.77.3.189	
-cust-212-77-3-5.ias.va	IN	A	212.77.3.5	
-cust-212-77-12-222.ias.va	IN	A	212.77.12.222	
-cust-212-77-12-217.ias.va	IN	A	212.77.12.217	
-cust-212-77-12-179.ias.va	IN	A	212.77.12.179	
-cust-212-77-12-152.ias.va	IN	A	212.77.12.152	
-cust-212-77-3-38.ias.va	IN	A	212.77.3.38	
-cust-212-77-12-69.ias.va	IN	A	212.77.12.69	
-cust-212-77-12-48.ias.va	IN	A	212.77.12.48	
-cust-212-77-3-235.ias.va	IN	A	212.77.3.235	
-cust-212-77-12-14.ias.va	IN	A	212.77.12.14	
-cust-212-77-3-128.ias.va	IN	A	212.77.3.128	
-cust-212-77-3-137.ias.va	IN	A	212.77.3.137	
-cust-212-77-12-13.ias.va	IN	A	212.77.12.13	
-cust-212-77-3-27.ias.va	IN	A	212.77.3.27	
-cust-212-77-12-236.ias.va	IN	A	212.77.12.236	
-cust-212-77-12-145.ias.va	IN	A	212.77.12.145	
-cust-212-77-12-37.ias.va	IN	A	212.77.12.37	
-cust-212-77-3-141.ias.va	IN	A	212.77.3.141	
-cust-212-77-12-150.ias.va	IN	A	212.77.12.150	
-cust-212-77-3-111.ias.va	IN	A	212.77.3.111	
