@@ -1,7 +1,7 @@
 <p align="center">
-<img width="300" alt="vatican seal" src="va.png">
-  <h1 align="center">Vatican .va (Holy See)<br>ccTLD Zone Data</center>
-  <h3 align="center">Last Updated May 26, 2021  -  1,378 Records</h3>
+<img src="church.gif">
+  <h1 align="center">Vatican .va (Holy See)<br>ccTLD Zone Data</h1>
+    <h4 align="center">Last Update - May 26, 2021<br><code>1,300+ Records and 200+ Domains</code></h4>
 </p>
 
 ## Summary
