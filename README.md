@@ -1,16 +1,14 @@
-<p align="center">
-<img src="church.gif">
-  <h1 align="center">Vatican .va (Holy See)<br>ccTLD Zone Data</h1>
-    <h4 align="center">Last Update - May 26, 2021<br><code>1,300+ Records and 200+ Domains</code></h4>
-</p>
+<h1 align="center">Vatican .va (Holy See)<br>ccTLD Zone Data<br><br>
+<img src="church.gif"></h1>
+    <h3 align="center">Last updated May 26, 2021. This zone file contains 1,300+ records for 200+ apex domains.</h3>
 
 ## Summary
 
 Vatican City is the smallest, independent nation state in the world. As a nation it was given the .va ccTLD. This country code top-level domain is restricted for usage by Vatican City (also known as the Holy See) and represents the religion of Catholicism at large. One would suspect that there would be a relatively small network behind such a small nation, but the reality is quite surprising. The Vatican .va (Holy See) ccTLD operates nearly two hundred apex domains and several hundred subdomains, which connect the various aspects of Vatican City's internal operations and publicly facing websites. As it stands there is no offical way to request the zone file from Vatican City. Furthermore, it has been over a decade since the [2007 VA ccTLD zone file](https://web.archive.org/web/20080119124048/http://www.robert.net/ccTLD/VA) was published (originally by Robert Baskerville). This lead us to develop our own zone file as part of a research initiative, which we are making available for interested researchers. 
 
-## Formats
+## Downloads
 
-The `va-zone.txt` file is tab delimited and contains a running list of each record identified, whereas the `va-zone.csv` file contains seperate columns for record name, record type, and record value for easy sorting and filtering. 
+The <a target="_blank" href="va-zone.txt">`va-zone.txt`</a> file is tab delimited and contains a running list of each record identified, whereas the <a target="_blank" href="va-zone.csv">`va-zone.csv`</a> file contains seperate columns for record name, record type, and record value for easy sorting and filtering. 
 
 ## Interesting Notes
 
