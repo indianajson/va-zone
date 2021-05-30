@@ -1,10 +1,11 @@
 <h1 align="center">Vatican .va (Holy See)<br>ccTLD Zone Data<br><br>
 <img src="church.gif"></h1>
-    <h3 align="center">Last updated May 26, 2021. This zone file contains 1,300+ records for 200+ apex domains.</h3>
+    <h3 align="center">Last updated May 26, 2021.<br>This zone file contains 1,426+ records for 935 FQDNs.<br>
+    Download <a target="_blank" href="va-zone.csv">CSV</a> or <a target="_blank" href="va-zone.txt">TXT</a> format.</h3>
 
 ## Summary
 
-Vatican City is the smallest, independent nation state in the world. As a nation it was given the .va ccTLD. This country code top-level domain is restricted for usage by Vatican City (also known as the Holy See) and represents the religion of Catholicism at large. One would suspect that there would be a relatively small network behind such a small nation, but the reality is quite surprising. The Vatican .va (Holy See) ccTLD operates nearly two hundred apex domains and several hundred subdomains, which connect the various aspects of Vatican City's internal operations and publicly facing websites. As it stands there is no offical way to request the zone file from Vatican City. Furthermore, it has been over a decade since the [2007 VA ccTLD zone file](https://web.archive.org/web/20080119124048/http://www.robert.net/ccTLD/VA) was published (originally by Robert Baskerville). This lead us to develop our own zone file as part of a research initiative, which we are making available for interested researchers. 
+Vatican City is the smallest, independent nation state in the world. As a nation it was given the .va ccTLD. This country code top-level domain is restricted for usage by Vatican City (also known as the Holy See) and represents the religion of Catholicism at large. One would suspect that there would be a relatively small network behind such a small nation, but the reality is quite surprising. The Vatican .va (Holy See) ccTLD operates around two hundred apex domains, encompassing over seven hundred subdomains, which connect the various aspects of Vatican City's internal operations and publicly facing websites. As it stands there is no offical way to request the zone file from Vatican City. Furthermore, it has been over a decade since the [2007 VA ccTLD zone file](https://web.archive.org/web/20080119124048/http://www.robert.net/ccTLD/VA) was published (originally by Robert Baskerville). This lead us to develop our own zone file as part of a research initiative, which we are making available for interested researchers. 
 
 ## Downloads
 
@@ -28,9 +29,9 @@ The <a target="_blank" href="va-zone.txt">`va-zone.txt`</a> file is tab delimite
 
 >Quite a few domains registered in the zone appear to be used exclusively for email addresses (neither the apex domain nor the `www` equivalent contained A or CNAME records) and no subdomain records appear to exist. 
 
-## Methodology
+## Methodology & Special Thanks
 
-Research began with the Vatican City's two autonomous systems ([AS8978](https://bgp.he.net/AS8978) and [AS202865](https://bgp.he.net/AS202865)). Almost all Vatican City networks and servers operate within these two IP address blocks (with very few exceptions). In conjunction with research on the scope of the ccTLD over the past twenty years via Internet Archive we were able to construct a fairly robust map of the primary domains in the zone. From there subdomain enumeration was conducted on each valid apex domain through multiple public sources. Finally, DNS records for each valid domain and subdomain were collected into the final zone data presented above. 
+Research began with the Vatican City's two autonomous systems ([AS8978](https://bgp.he.net/AS8978) and [AS202865](https://bgp.he.net/AS202865)). Almost all Vatican City networks and servers operate within these two IP address blocks (with very few exceptions). With research on the scope of the ccTLD over the past twenty years obtained from <a href="https://github.com/internetarchive/" target="_blank"the Internet Archive</a> we were able to construct a fairly robust map of the primary domains in the zone. This project would have been impossible without <a href="https://github.com/caffix"> target="_blank">Caffix</a>'s <a href="https://github.com/OWASP/Amass" target="_blank">amass</a> project, which allowed us to perform subdomain enumeration on each valid apex domain automating what would have taking dozens of hours to complete by hand. Finally, DNS records for each valid domain and subdomain were collected into the final zone data presented above. 
 
 ## Disclaimer
 
