@@ -25,12 +25,15 @@ americalatina.va	IN	MX	mx12.vatican.va
 americalatina.va	IN	TXT	google-site-verification=OZfMLh3i3SsK2cVmBpTLYk7QzTmgOBD0ETviqzVAnYk	
 americalatina.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
 analytics.catholica.va	IN	A	212.77.4.66	
+analytics.spc.va	IN	CNAME	rvproxy-inter.spc.va.	
 andrea.spc.va	IN	A	185.152.69.154	
 annusfidei.va	IN	MX	mx11.vatican.va	
 annusfidei.va	IN	MX	mx12.vatican.va	
 annusfidei.va	IN	TXT	google-site-verification=zLWpc9c86MP5E_LYAfZI7EBe4lmB2g6PyMaVe4hUFQ8	
 annusfidei.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+aod-01.vaticanmedia.va	IN	CNAME	aod.vaticanmedia.va.	
 aod-02.vaticanmedia.va	IN	CNAME	aod.vaticanmedia.va.	
+aod.vaticanmedia.va	IN	A	185.152.70.116	
 aod.vaticanmedia.va	IN	A	185.152.70.116	
 aoip-01.vaticanmedia.va	IN	A	185.152.70.71	
 aoip-01.vaticanmedia.va	IN	A	185.152.70.71	
@@ -59,11 +62,14 @@ asv.va	IN	MX	mx11.vatican.va
 asv.va	IN	MX	mx12.vatican.va	
 asv.vatican.va	IN	CNAME	cu-disp.spc.va	
 attualita.vatican.va	IN	CNAME	irvp-98.catholica.va	
+autodiscover.catholica-stg.va	IN	CNAME	imta.catholica-stg.va.	
 autodiscover.catholica.va	IN	CNAME	imta.vatican.va	
 autodiscover.cloud.va	IN	CNAME	imta.vatican.va	
+autodiscover.evang.va	IN	CNAME	mail.evang.va.	
 autodiscover.museivaticani.va	IN	CNAME	imta.vatican.va	
 autodiscover.net.va	IN	CNAME	imta.vatican.va	
 autodiscover.oessh.va	IN	CNAME	imta.vatican.va	
+autodiscover.spc.va	IN	CNAME	mail.spc.va.	
 autodiscover.ufn.va	IN	CNAME	imta.vatican.va	
 autodiscover.ulsa.va	IN	CNAME	imta.vatican.va	
 autodiscover.vatican-stg.va	IN	CNAME	imta.vatican.va.	
@@ -78,9 +84,11 @@ basilicasantantonio.va	IN	MX	mx11.vatican.va
 basilicasantantonio.va	IN	MX	mx12.vatican.va	
 basilicasantantonio.va	IN	TXT	google-site-verification=E3buntcwgsCNkQwfcpbCc8Axt-myxqTCZB1WzpIV5uk	
 basilicasantantonio.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+bav.vatican.va	IN	CNAME	www.vaticanlibrary.va.	
 benedettoxvi.va	IN	CNAME	www.vatican.va	
 benedictumxvi.va	IN	CNAME	www.vatican.va	
 beneficenza.vatican.va	IN	A	212.77.4.141	
+beta.spc.va	IN	CNAME	rvproxy-inter.spc.va.	
 biglietteriamusei.vatican-stg.va	IN	A	212.77.4.101	
 biglietteriamusei.vatican-stg.va	IN	A	212.77.4.101	
 biglietteriamusei.vatican.va	IN	A	212.77.4.102	
@@ -156,6 +164,8 @@ clerus.va	IN	MX	mx12.vatican.va
 clerus.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
 cms-disp-s.spc.va	IN	A	185.152.70.105	
 cms-disp.spc.va	IN	A	185.152.70.101	
+cms-disp.spc.va	IN	A	185.152.70.101	
+cms-ior.spc.va	IN	A	185.152.70.61	
 cnewa-pmp.va	IN	MX	mx11.vatican.va	
 cnewa-pmp.va	IN	MX	mx12.vatican.va	
 cnewa-pmp.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
@@ -641,6 +651,9 @@ imr.vatican.va	IN	MX	raphaelmx2.posta.va
 ims-tp.telefonivaticani.va	IN	A	212.77.10.14	
 ims.telefonivaticani.va	IN	A	212.77.10.17	
 imta.catholica-stg.va	IN	A	212.77.4.215	
+imta.catholica-stg.va	IN	A	212.77.4.215	
+imta.catholica-stg.va	IN	A	212.77.4.215	
+imta.catholica-stg.va	IN	A	212.77.4.215	
 imta.vatican.va	IN	A	212.77.4.214	
 imta.vatican.va	IN	A	212.77.4.214	
 info.oessh.va	IN	CNAME	iwc2.vatican.va	
@@ -657,6 +670,7 @@ ior.va	IN	MX	mx11.vatican.va
 ior.va	IN	MX	mx12.vatican.va	
 ior.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 include:musvc.com ~all	
 ipm.cloud.va	IN	A	212.77.5.70	
+iproxy.catholica-stg.va	IN	CNAME	imta.catholica-stg.va.	
 irvp-103-oessh.catholica.va	IN	A	212.77.4.103	
 irvp-110-wyd-staging.catholica.va	IN	A	212.77.4.110	
 irvp-111-wyd.catholica.va	IN	A	212.77.4.111	
@@ -682,6 +696,7 @@ irvp-98.catholica.va	IN	A	212.77.4.98
 irvp-99.catholica.va	IN	A	212.77.4.99	
 irvproxy-ngx.catholica-stg.va	IN	A	212.77.4.105	
 irvproxy-ngx.catholica.va	IN	A	212.77.4.144	
+irvproxy-staging.catholica.va	IN	A	212.77.4.95	
 irvproxy-staging.catholica.va	IN	A	212.77.4.95	
 irvproxy.catholica.va	IN	A	212.77.4.88	
 isidoro.vatican.va	IN	CNAME	vportal.catholica.va	
@@ -764,6 +779,9 @@ m.vatican.va	IN	CNAME	wcm-disp.spc.va
 m2.vatican.va	IN	CNAME	wcm-disp.spc.va	
 mail.cloud.va	IN	CNAME	imta.vatican.va	
 mail.evang.va	IN	A	212.77.4.91	
+mail.evang.va	IN	A	212.77.4.91	
+mail.spc.va	IN	A	185.152.70.113	
+mail.spc.va	IN	A	185.152.70.113	
 mail.vatican.va	IN	CNAME	imta.vatican.va	
 mailer-mv.spclists.va	IN	A	185.152.70.133	
 mailing.museivaticani.va	IN	A	212.77.4.135	
@@ -827,6 +845,7 @@ mv.vatican.va	IN	CNAME	irvproxy.catholica.va
 mvappguide.museivaticani.va	IN	A	212.77.4.75	
 mvs.museivaticani.va	IN	A	212.77.4.45	
 mx-11.spclists.va	IN	A	185.152.70.114	
+mx-mm-stg.spclists.va	IN	A	185.152.70.141	
 mx-mm.spclists.va	IN	A	185.152.70.140	
 mx.dsscv.va	IN	A	212.77.5.41	
 mx1.dsscv.va	IN	A	212.77.14.6	
@@ -836,6 +855,7 @@ mx2.dsscv.va	IN	A	212.77.14.7
 mx20.vatican.va	IN	A	212.77.5.120	
 mx21.vatican.va	IN	A	212.77.5.121	
 mxgw-01.spc.va	IN	A	185.152.70.151	
+mxgw-02.spc.va	IN	A	185.152.70.152	
 mxgw-master.spc.va	IN	A	185.152.70.150	
 mxmaster.vatican.va	IN	A	212.77.5.113	
 nessus.catholica.va	IN	A	212.77.7.179	
@@ -858,6 +878,7 @@ noc.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.
 novaevangelizatio.va	IN	MX	mx11.vatican.va	
 novaevangelizatio.va	IN	MX	mx12.vatican.va	
 novaevangelizatio.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+ns-ext-01.spc.va	IN	A	185.152.70.125	
 ns-ext-02.spc.va	IN	A	185.152.70.126	
 ns-ext-master.spc.va	IN	A	185.152.70.124	
 nuntius.va	IN	MX	mx11.vatican.va	
@@ -959,6 +980,7 @@ ppoomm.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.
 ppoomm.va	IN	TXT	wMfs62nbcxbjZ3Uxas1aJ18FmxjfK2BVAqWZ++p+CMc=	
 press-disp.spc.va	IN	A	185.152.70.35	
 press.catholica.va	IN	CNAME	wcm.catholica.va	
+press.vatican-stg.va	IN	CNAME	wcm-stg.catholica.va.	
 press.vatican.va	IN	CNAME	press-vatican.azureedge.net	
 pressoffice.va	IN	MX	mx11.vatican.va	
 pressoffice.va	IN	MX	mx12.vatican.va	
@@ -986,7 +1008,9 @@ psiv.catholica.va	IN	CNAME	irvproxy.catholica.va
 publish.va	IN	MX	mx11.vatican.va	
 publish.va	IN	MX	mx12.vatican.va	
 publish.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
+r.spclists.va	IN	A	185.152.70.138	
 raffaele.catholica.va	IN	A	212.77.2.181	
+rassegna.spc.va	IN	A	185.241.65.65	
 register-stg.wyd.va	IN	CNAME	irvp-110-wyd-staging.catholica.va	
 register.wyd.va	IN	CNAME	irvp-111-wyd.catholica.va	
 religiosi.va	IN	MX	mx11.vatican.va	
@@ -1005,6 +1029,9 @@ rv.va	IN	NS	ns-ext-01.spc.va
 rv.va	IN	NS	ns-ext-02.spc.va	
 rv.va	IN	NS	spc03.glauco.it	
 rvl.vaticanmedia.va	IN	A	185.152.70.74	
+rvproxy-inter.spc.va	IN	A	185.152.70.79	
+rvproxy-inter.spc.va	IN	A	185.152.70.79	
+rvproxy-inter.spc.va	IN	A	185.152.70.79	
 rvproxy-inter.spc.va	IN	A	185.152.70.79	
 salastampa.va	IN	MX	mxgw-01.spc.va	
 salastampa.va	IN	MX	mxgw-02.spc.va	
@@ -1062,7 +1089,19 @@ sip.sigri.va	IN	A	212.77.4.157
 sistinechapel.va	IN	CNAME	mv.vatican.va	
 sixtinischekapelle.va	IN	CNAME	mv.vatican.va	
 smtp-out.caritas.va	IN	A	212.77.12.118	
+smtp.catholica-stg.va	IN	CNAME	imta.catholica-stg.va.	
 smtp.vatican.va	IN	CNAME	michael.vatican.va	
+spc.va	IN	SOA	ns-ext-01.spc.va.	
+spc.va	IN	NS	ns-ext-02.spc.va.	
+spc.va	IN	NS	ns-ext-01.spc.va.	
+spc.va	IN	NS	spc03.glauco.it.	
+spc.va	IN	MX	mxgw-01.spc.va.	
+spc.va	IN	MX	mxgw-02.spc.va.	
+spc.va	IN	TXT	globalsign-domain-verification=gUwXlQIAIDcM-tmm8PH-tNthYlBkPlQmaY5-XE7Yol	
+spc.va	IN	TXT	iD3sOMQAzF9tW5tnsQhb/6G2nN6HIof4eD24Ih9vOc0=	
+spc.va	IN	TXT	v=spf1 mx a:mail.spc.va a:mxgw-master.spc.va a:mxgw-01.spc.va a:mxgw-02.spc.va -all	
+spc.va	IN	TXT	ZOOM_verify_yL4aj-0vRS6f2SRxOYskWg	
+spc.va	IN	TXT	apple-domain-verification=Wgj6yUWW0LIu01Du	
 spclists.va	IN	MX	mx-11.spclists.va	
 spclists.va	IN	NS	ns-ext-01.spc.va	
 spclists.va	IN	NS	ns-ext-02.spc.va	
@@ -1163,6 +1202,7 @@ vaticanobservatory.va	IN	MX	mx11.vatican.va
 vaticanobservatory.va	IN	MX	mx12.vatican.va	
 vaticanobservatory.va	IN	TXT	v=spf1 ip4:212.77.4.23 ip4:212.77.4.24 ip4:212.77.4.25 ip4:212.77.4.26 ~all	
 vaticanstate.va	IN	A	212.77.4.171	
+vaticloud.spc.va	IN	CNAME	rvproxy-inter.spc.va.	
 vaticloud.vatican-stg.va	IN	CNAME	irvp-40-vaticloud-stg.catholica.va.	
 vaticloud.vatican.va	IN	CNAME	irvp-50-vaticloud.catholica.va	
 vatlib.va	IN	MX	mx11.vatican.va	
@@ -1184,16 +1224,19 @@ vpn-02.catholica.va	IN	A	212.77.5.50
 vpn-03.catholica.va	IN	A	212.77.5.51	
 vpn-04.catholica.va	IN	A	212.77.5.52	
 vpnossromtipografia.vpn.va	IN	A	212.77.5.107	
+vportal.catholica-stg.va	IN	CNAME	irvproxy-staging.catholica.va.	
 vportal.catholica.va	IN	CNAME	irvp-77.catholica.va	
 vseat.spc.va	IN	A	185.152.70.190	
 w2.vatican.va	IN	CNAME	wcm-disp.spc.va	
 wcm-author.catholica.va	IN	CNAME	vportal.catholica.va	
 wcm-disp.spc.va	IN	A	185.152.70.33	
 wcm-stg.catholica.va	IN	A	212.77.4.80	
+wcm-stg.catholica.va	IN	A	212.77.4.80	
 wcm-ulsa.catholica.va	IN	A	212.77.4.71	
 wcm.catholica.va	IN	A	212.77.4.79	
 wcmdevel-author.catholica.va	IN	CNAME	vportal.catholica.va	
 wcmstaging-author.catholica.va	IN	CNAME	vportal.catholica.va	
+web.spclists.va	IN	CNAME	mx-11.spclists.va.	
 webconf.sigri.va	IN	A	212.77.4.153	
 webconf.sigri.va	IN	A	212.77.4.158	
 webmail.caritas.va	IN	A	212.77.12.116	
@@ -1203,6 +1246,7 @@ widgets.vatican.va	IN	CNAME	wcm-disp.spc.va
 wms.catholica.va	IN	CNAME	idispatcher.catholica.va	
 www-01.catholica.va	IN	A	212.77.4.78	
 www-02.catholica.va	IN	A	212.77.4.81	
+www-04.catholica.va	IN	A	212.77.4.84	
 www-05.catholica.va	IN	A	212.77.4.85	
 www.academiadelasciencias.va	IN	CNAME	cu-disp.spc.va	
 www.academyforlife.va	IN	CNAME	cu-disp.spc.va	
@@ -1344,6 +1388,7 @@ www.sigri.va	IN	CNAME	irvp-86-sigri.catholica.va.
 www.sinodoamazonico.va	IN	CNAME	cu-disp.spc.va	
 www.sistinechapel.va	IN	CNAME	mv.vatican.va	
 www.sixtinischekapelle.va	IN	CNAME	mv.vatican.va	
+www.spc.va	IN	CNAME	cms-disp.spc.va.	
 www.synod.va	IN	CNAME	cu-disp.spc.va	
 www.synod2018.va	IN	CNAME	cu-disp.spc.va	
 www.test23111973.va	IN	CNAME	seraphin.vatican.va	
@@ -1357,6 +1402,8 @@ www.ulsa.va	IN	CNAME	cu-disp.spc.va
 www.va	IN	CNAME	www.vatican.va	
 www.vatican-stg.va	IN	CNAME	iwc2.vatican-stg.va.	
 www.vatican.va	IN	CNAME	wcm-disp.spc.va	
+www.vaticanlibrary.va	IN	A	212.77.5.67	
+www.vaticanlibrary.va	IN	TXT	_globalsign-domain-verification=jFx08sFIsoQE69yB3FtiMPqw6mussyEiuVjRRQQKel	
 www.vaticanlibrary.va	IN	A	212.77.5.67	
 www.vaticanlibrary.va	IN	TXT	_globalsign-domain-verification=jFx08sFIsoQE69yB3FtiMPqw6mussyEiuVjRRQQKel	
 www.vaticannews.va	IN	CNAME	www-vn.azureedge.net	
