@@ -1,5 +1,5 @@
 <h1 align="center">Vatican .va (Holy See)<br>ccTLD Zone Data<br><br>
-<img src="church.gif"></h1>
+<img src="https://raw.githubusercontent.com/indianajson/indianajson/main/vatican.gif"></h1>
     <h3 align="center">Last updated May 26, 2021.<br>This zone file contains 1,426+ records for 935 FQDNs.<br>
     Download <a target="_blank" href="va-zone.csv">CSV</a> or <a target="_blank" href="va-zone.txt">TXT</a> format.</h3>
 
